@@ -634,8 +634,3 @@ int main() {
 まあシンプルに限定的だけど思いつきにくい問題です。
 
 [~~悪銭苦闘したnikkei2019c~~](https://atcoder.jp/contests/nikkei2019-qual/tasks/nikkei2019_qual_c)
-
--------切り取り線-------
-いかがだったでしょうか。自分用の備忘録
-なんでgithubにあげてるのかって？
-適当に。。
