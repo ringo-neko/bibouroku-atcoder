@@ -526,8 +526,39 @@ int main() {
 [その答え 解説](https://atcoder.jp/contests/abc224/editorial/2810)
 
 # 木の距離
+
 ~~画像を使おうとしてbase64に変換してできなかった~~
 
+![画像は対応していませんでした。ごめんなさい！](img1.svg)
+
+![](img2.svg)
+
+![](img3.svg)
+
+![](img4.svg)
+
+![](img5.svg)
+
+![](img6.svg)
+
+![](img7.svg)
+
+**画像が読み込めなかった人用、またはわからなかった人用のテキスト**
+```
+1<=p<=n
+点1からの点pまでの最短距離をすべて出す。
+その結果をaとして、
+aで一番距離が多かった方からまた点pまでの最短距離をすべて出す。
+その結果をbとすると、
+f(x)を
+if a[x] == max(a[x],b[x]):
+  print(max(a))
+else:
+  print(max(b))
+点xから行ける一番遠い点は、f(x)
+```
+
+[これをつかった問題](https://atcoder.jp/contests/abc428/tasks/abc428_e)
 
 # 章2 考え方(コードなし)
 
